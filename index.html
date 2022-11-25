@@ -17,7 +17,7 @@
                 </div>
                 
                 <section class="input_area">
-                    <input type="text" id="task-input"/>
+                    <input type="text" id="task-input" onkeydown="if(window.event.keyCode==13){addTask()}"/>
                     <button type="button" id="add-btn">+</button>
                 </section>
                 <section class="task_area">

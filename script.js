@@ -34,6 +34,7 @@ function addTask(){
     };
 
     taskList.push(task);
+    taskInput.value = "";
 
     console.log(task);
     render();
