@@ -74,10 +74,11 @@ button {background:none; border:0; padding:0;}
 #underLine {height:3px; background-color: #000; position:absolute; width:60px; left:0; bottom:0px; padding:0px; transition: all 0.3s;}
 .task_item {display:flex; justify-content: space-between; padding:15px; margin-bottom:10px; box-sizing: border-box;}
 .task_item .subject {width:80%; word-break:break-all; font-weight:500;}
-.task_item .btn_box {width:20%;padding-left:10px;box-sizing:border-box;display:flex;}
+.task_item .btn_box {width:20%;padding-left:10px;box-sizing:border-box;display:flex;justify-content: flex-end;}
+.task_item .btn_box button {width:20px; height:20px; cursor:pointer; font-size:1rem; margin-left:5px;}
 .task_item.active {background-color: #f3f3f3;}
 .task_item .task_done {text-decoration:line-through;}
-.task_item .btn_box button {width:20px; height:20px; cursor:pointer; font-size:1rem; margin-left:5px;}
+
 
 @media (min-width: 1px) and (max-width:480px) {
     body, html {font-size:14px;}
